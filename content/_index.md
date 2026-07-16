@@ -299,7 +299,7 @@ sections:
         science, geographic information systems, urban and territorial
         analysis, explainable artificial intelligence and open science.
 
-      email: YOUR_EMAIL@example.com
+      email: roberto.machado@campus.fcsh.unl.pt
       autolink: true
 
     design:
