@@ -1,100 +1,162 @@
-schema: hugoblox/author/v1
+sschema: hugoblox/author/v1
 slug: me
 is_owner: true
+
 name:
-  display: Alex Johnson
-  given: Alex
-  family: Johnson
-postnominals: []
+  display: Roberto Machado
+  given: Roberto
+  family: Machado
+
+postnominals:
+  - PhD
+
 status:
-  icon: "💻"  # Emoji shown on avatar badge: 💻 developer, 🎨 designer, 🚀 startup, 🔬 researcher, 🎓 student
-role: Full-Stack Developer
-email: alex@example.com
+  icon: "🌍"
+
+role: Geographer and Spatial Data Scientist
+
 bio: |
-  Full-stack developer with 5+ years of experience building scalable web applications.
-  Passionate about modern JavaScript, cloud architecture, and creating delightful user experiences.
+  Geographer and researcher working at the intersection of Geographic
+  Information Science, spatial data science, urban and territorial analysis,
+  and explainable artificial intelligence.
+
+  My research explores how computational and spatial methods can strengthen
+  spatial literacy, improve the interpretation of geographic phenomena,
+  and support evidence-based territorial decision-making. I develop
+  reproducible analytical workflows, building-level spatial analyses,
+  interactive research tools, and explainable machine-learning applications.
 
 affiliations:
-  - name: Tech Corp
-    url: https://techcorp.example.com
+  - name: NOVA University Lisbon — School of Social Sciences and Humanities
+    url: https://www.fcsh.unl.pt/
 
 links:
-  - icon: at-symbol
-    url: mailto:alex@example.com
-    label: E-mail Me
   - icon: brands/github
-    url: https://github.com/alexjohnson
-  - icon: brands/linkedin
-    url: https://www.linkedin.com/in/alexjohnson/
-  - icon: brands/x
-    url: https://x.com/alexjohnson
+    url: https://github.com/RobertoOlivetree
+    label: GitHub
+
+  - icon: globe-alt
+    url: https://geoinsightlab.tilda.ws/
+    label: GEOInsightLab
 
 interests:
-  - Web Development
-  - Cloud Architecture
-  - Open Source
-  - Developer Experience
+  - Geographic Information Science
+  - Spatial Data Science
+  - Explainable Artificial Intelligence
+  - Spatial Literacy
+  - Urban and Territorial Analysis
+  - Spatial Statistics
+  - Open and Reproducible Science
 
 education:
-  - degree: B.S. Computer Science
-    institution: State University
-    start: 2015-09-01
-    end: 2019-05-31
+  - degree: PhD in Geography and Territorial Planning
+    institution: NOVA University Lisbon — School of Social Sciences and Humanities
+    start: 2021-01-01
+    end: 2025-10-25
     summary: |
-      Focus on software engineering and distributed systems.
-      Senior project on distributed caching systems.
+      Specialisation in Remote Sensing and Geographic Information Systems.
+
+      Doctoral thesis: *Data Science in Spatial Literacy*.
+
+      The research integrated spatial data science, open science,
+      interactive geographic visualisation, machine learning, and
+      explainable artificial intelligence through the development and
+      experimental validation of the GEOInsightLab platform.
     button:
-      text: View Project
-      url: https://github.com/alexjohnson/senior-project
+      text: Explore GEOInsightLab
+      url: https://github.com/RobertoOlivetree/GEOinsightLab
       icon: brands/github
 
 experience:
-  - role: Senior Software Engineer
-    org: Tech Corp
+  - role: Visiting Researcher
+    org: The University of Queensland
     start: 2023-01-01
+    end: 2024-12-31
     summary: |
-      Lead development of microservices architecture serving 1M+ users.
-      Improved API response time by 40% through optimization.
-      Mentored team of 5 junior developers.
-  - role: Full-Stack Developer
-    org: Startup Inc
-    start: 2021-06-01
+      Research activities in geography, spatial data analysis, remote sensing,
+      and computational approaches to geographic information.
+
+  - role: Strategic Adviser
+    org: National Parliament of Timor-Leste
+    start: 2021-01-01
     end: 2022-12-31
     summary: |
-      Built and deployed 3 production applications from scratch.
-      Implemented CI/CD pipeline reducing deployment time by 60%.
-      Led migration from monolith to microservices architecture.
-  - role: Junior Developer
-    org: Web Agency
-    start: 2020-01-01
-    end: 2021-05-31
+      Strategic and territorial analysis supporting institutional planning,
+      public policy, and evidence-based decision-making.
+
+  - role: Geographic Information and Territorial Planning Consultant
+    org: Hexis
+    start: 2017-01-01
+    end: 2019-12-31
     summary: |
-      Developed client websites using React and modern web technologies.
-      Participated in code reviews and agile ceremonies.
+      Development of geographic information, spatial analysis, and
+      territorial planning work for applied projects.
+
+  - role: Geography Teacher
+    org: Portuguese Secondary Education
+    start: 2016-01-01
+    summary: |
+      Teaching Geography and developing learning activities involving
+      geographic information, spatial reasoning, and digital technologies.
 
 skills:
-  - name: Development
+  - name: Spatial Data Science
     items:
-      - label: TypeScript
-        level: 5
-      - label: React
-        level: 5
-      - label: Node.js
-        level: 5
       - label: Python
-        level: 4
-  - name: DevOps
+        level: 5
+      - label: GeoPandas
+        level: 5
+      - label: Spatial Analysis
+        level: 5
+      - label: Spatial Statistics
+        level: 5
+      - label: OSMnx and Network Analysis
+        level: 5
+
+  - name: Machine Learning and XAI
     items:
-      - label: Docker
+      - label: Scikit-learn
+        level: 5
+      - label: XGBoost
         level: 4
-      - label: AWS
+      - label: SHAP
+        level: 5
+      - label: LIME
+        level: 5
+      - label: Spatial Machine Learning
+        level: 5
+
+  - name: Geographic Technologies
+    items:
+      - label: Geographic Information Systems
+        level: 5
+      - label: Remote Sensing
         level: 4
-      - label: CI/CD
+      - label: Interactive Mapping
+        level: 5
+      - label: Jupyter
+        level: 5
+      - label: Streamlit
+        level: 3
+
+  - name: Research Practice
+    items:
+      - label: Open Science
+        level: 5
+      - label: Reproducible Research
+        level: 5
+      - label: Scientific Writing
+        level: 5
+      - label: Quantitative Methods
         level: 5
 
 languages:
-  - name: English
+  - name: Portuguese
     level: 5
     label: Native
+
+  - name: English
+    level: 4
+    label: Professional working proficiency
 
 awards: []
