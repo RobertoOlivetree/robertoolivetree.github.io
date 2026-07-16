@@ -7,35 +7,15 @@ tags:
   - Spatial Data Science
   - GIS
   - Explainable AI
-  - Open Science
-  - Urban Analysis
 
 featured: true
-
-image:
-  caption: "GEOInsightLab"
-  focal_point: "Center"
-  preview_only: false
-
-links:
-  - type: site
-    url: "https://geoinsightlab.tilda.ws/"
-    label: "Project Website"
-
-  - type: demo
-    url: "https://geoinsightlab-7ixebzstz8ghsdcvtvidcw.streamlit.app/"
-    label: "Interactive Demo"
-
-  - type: code
-    url: "https://github.com/RobertoOlivetree/GEOinsightLab"
-    label: "Source Code"
 ---
 
 ## Overview
 
 **GEOInsightLab** is an open research platform developed to integrate
-Geographic Information Science, Spatial Data Science, machine learning,
-Explainable Artificial Intelligence and interactive geographic visualisation.
+Geographic Information Science, spatial data science, machine learning,
+explainable artificial intelligence and interactive geographic visualisation.
 
 The platform was created within the doctoral research project
 *Data Science in Spatial Literacy* and provides a reproducible framework
@@ -47,8 +27,8 @@ GEOInsightLab explores how spatial data science can strengthen spatial
 literacy and improve the interpretation of complex geographic phenomena.
 
 The platform combines quantitative analysis, spatial reasoning,
-interactive visualisation and explainable artificial intelligence to
-support research, education and evidence-based territorial decision-making.
+interactive visualisation and explainable artificial intelligence to support
+research, education and evidence-based territorial decision-making.
 
 ## Main Components
 
