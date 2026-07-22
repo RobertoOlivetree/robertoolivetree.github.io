@@ -85,5 +85,5 @@ made available:
 ## Project Links
 
 - [Project Website](https://geoinsightlab.tilda.ws/)
-- [Interactive Application](https://geoinsightlab-7ixebzstz8ghsdcvtvidcw.streamlit.app/)
+- [Interactive Application](https://geoinsightlab-web.streamlit.app/)
 - [Source Code](https://github.com/RobertoOlivetree/GEOinsightLab)
