@@ -98,7 +98,7 @@ sections:
 
   # Research Tools and Methods
   - block: tech-stack
-    id: tools
+    id: skills
 
     content:
       title: "Research Tools and Methods"
