@@ -96,7 +96,7 @@ sections:
         padding: ["4rem", "0", "4rem", "0"]
 
 
-  # Research Tools and Methods
+  # Skills
   - block: tech-stack
     id: skills
 
@@ -106,22 +106,22 @@ sections:
 
       categories:
 
-        - name: Programming and Data
+        - name: Programming
           items:
             - name: Python
               icon: devicon/python
 
-            - name: Jupyter
-              icon: devicon/jupyter
+            - name: Pandas
+              icon: devicon/python
 
-            - name: PostgreSQL
+            - name: NumPy
+              icon: devicon/python
+
+            - name: PostGIS
               icon: devicon/postgresql
 
-            - name: Git
-              icon: devicon/git
 
-
-        - name: Spatial Analysis
+        - name: Spatial Analytics
           items:
             - name: GeoPandas
               icon: devicon/python
@@ -151,7 +151,7 @@ sections:
               icon: devicon/python
 
 
-        - name: Open and Interactive Research
+        - name: Research Tools
           items:
             - name: GitHub
               icon: brands/github
@@ -159,11 +159,11 @@ sections:
             - name: Streamlit
               icon: devicon/python
 
+            - name: Plotly
+              icon: devicon/python
+
             - name: Docker
               icon: devicon/docker
-
-            - name: Open Science
-              icon: brands/github
 
     design:
       style: grid
