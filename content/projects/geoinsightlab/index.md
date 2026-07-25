@@ -1,5 +1,5 @@
 ---
-title: "GEOInsightLab"
+title: "GEOinsightLab"
 summary: "Data Science for Spatial Literacy"
 date: 2026-07-16
 
