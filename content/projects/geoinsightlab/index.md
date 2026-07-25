@@ -3,9 +3,6 @@ title: "GEOinsightLab"
 summary: "Data Science for Spatial Literacy"
 date: 2026-07-16
 
-image:
-  filename: mapa.png
-
 tags:
   - Spatial Data Science
   - GIS
