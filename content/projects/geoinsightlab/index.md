@@ -9,6 +9,10 @@ tags:
   - Explainable AI
 
 featured: true
+
+image:
+  filename: mapa.png
+  preview_only: true
 ---
 
 ## Overview
