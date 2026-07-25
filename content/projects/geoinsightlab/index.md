@@ -23,7 +23,7 @@ for analysing, interpreting and communicating geographic information.
 
 ## Research Purpose
 
-GEOInsightLab explores how spatial data science can strengthen spatial
+GEOinsightLab explores how spatial data science can strengthen spatial
 literacy and improve the interpretation of complex geographic phenomena.
 
 The platform combines quantitative analysis, spatial reasoning,
