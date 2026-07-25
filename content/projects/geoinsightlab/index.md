@@ -13,7 +13,7 @@ featured: true
 
 ## Overview
 
-**GEOInsightLab** is an open research platform developed to integrate
+**GEOinsightLab** is an open research platform developed to integrate
 Geographic Information Science, spatial data science, machine learning,
 explainable artificial intelligence and interactive geographic visualisation.
 
