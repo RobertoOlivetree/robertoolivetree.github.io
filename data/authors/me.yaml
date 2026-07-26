@@ -38,6 +38,10 @@ links:
     url: https://github.com/RobertoOlivetree
     label: GitHub
 
+  - icon: brands/linkedin
+    url: https://www.linkedin.com/in/robertoolivetree/
+    label: LinkedIn
+
   - icon: building-library
     url: https://www.cics.nova.fcsh.unl.pt/investigador/roberto-machado-3/
     label: CICS.NOVA
