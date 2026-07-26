@@ -1,6 +1,6 @@
 ---
 title: "Decoding the City"
-summary: "Spatial Data Science for Urban Accessibility"
+summary: "Spatial Data Science and Explainable AI for Urban Accessibility"
 date: 2026-07-26
 
 type: project
@@ -10,77 +10,79 @@ tags:
   - GIScience
   - Urban Analytics
   - Explainable AI
-  - Accessibility
+  - Urban Accessibility
   - Python
 
 featured: true
 
 image:
   filename: featured.png
-  preview_only: false
+  preview_only: true
 
-links:
-  - icon: brands/github
-    name: Source Code
-    url: https://github.com/RobertoOlivetree/decoding-the-city
-
-  - icon: article
-    name: Conference Paper
-    url: https://doi.org/10.1007/978-3-031-93247-3_4
+url_code: https://github.com/RobertoOlivetree/decoding-the-city
 ---
-
-# Decoding the City
 
 ## Spatial Data Science for Urban Accessibility
 
 **Decoding the City** is an open research project that explores how **Spatial Data Science**, **Geographic Information Science (GIScience)** and **Explainable Artificial Intelligence (XAI)** can improve the understanding of urban accessibility and support evidence-based territorial planning.
 
-The project combines open geospatial data, pedestrian network analysis, machine learning, explainable artificial intelligence and interactive visualisation within a fully reproducible Python workflow.
+The project combines open geospatial data, pedestrian network analysis, unsupervised machine learning, explainable artificial intelligence and interactive visualisation within a reproducible Python workflow.
 
-Originally developed using the municipality of Porto (Portugal) as a case study, the methodology was designed to be transferable to other cities and territorial contexts.
+Originally developed using the municipality of Porto, Portugal, as a case study, the analytical framework was designed to be transferable to other cities and territorial contexts.
 
 ---
 
-# Key Features
+## Key Features
 
 - Building-level accessibility analysis
 - Pedestrian network modelling
 - Open geospatial data integration
 - Spatial clustering
 - Explainable Artificial Intelligence
-- Interactive dashboards
+- Interactive data visualisation
 - Reproducible Python workflows
 - Open Science
 
 ---
 
-# Research Objectives
+## Research Objectives
 
 The project aims to:
 
-- develop reproducible methodologies for analysing urban accessibility;
+- develop reproducible methods for analysing urban accessibility;
 - identify spatial inequalities through building-level indicators;
-- integrate machine learning with geographic information science;
+- integrate machine learning with Geographic Information Science;
 - improve model interpretability using Explainable AI;
-- support evidence-based territorial decision-making.
+- support transparent and evidence-based territorial decision-making.
 
 ---
 
-# Methodological Workflow
+## Methodological Workflow
 
-The analytical workflow integrates multiple stages into a single reproducible framework.
+The analytical workflow integrates seven main stages:
+
+1. Data integration
+2. Spatial data preparation
+3. Pedestrian network analysis
+4. Accessibility indicator construction
+5. Spatial clustering
+6. Explainable Artificial Intelligence
+7. Interactive visualisation and interpretation
+
+---
 
 ## 1. Data Integration
 
-Collection and harmonisation of heterogeneous spatial datasets:
+The project combines heterogeneous geographic and statistical datasets, including:
 
-- OpenStreetMap
-- Census data
-- Administrative boundaries
-- Public services
-- Road network
-- Buildings
-- Urban infrastructure
+- OpenStreetMap building footprints;
+- pedestrian street networks;
+- population census data;
+- administrative boundaries;
+- public and commercial service locations;
+- urban infrastructure data.
+
+The datasets are integrated within a common spatial analytical environment.
 
 ---
 
@@ -88,180 +90,229 @@ Collection and harmonisation of heterogeneous spatial datasets:
 
 Spatial preprocessing includes:
 
-- topology correction;
-- coordinate system harmonisation;
-- data validation;
+- geometry and topology correction;
+- coordinate reference system harmonisation;
+- spatial data validation;
+- filtering of residential buildings;
 - spatial joins;
 - feature engineering;
-- quality control.
+- data quality control.
+
+These procedures ensure consistency between datasets obtained from different sources and formats.
 
 ---
 
-## 3. Network Analysis
+## 3. Pedestrian Network Analysis
 
-Accessibility is modelled using pedestrian networks rather than Euclidean distance.
+Urban accessibility is modelled through pedestrian networks rather than straight-line distance.
 
-The workflow computes:
+Buildings and service locations are connected to their nearest network nodes. Shortest pedestrian routes are then calculated to evaluate access to essential urban services.
 
-- shortest paths;
-- walking distances;
-- service accessibility;
-- network connectivity;
-- accessibility indicators.
+The workflow includes:
 
----
+- pedestrian network construction;
+- building-to-network connection;
+- service-to-network connection;
+- shortest-path calculation;
+- walking-distance measurement;
+- service accessibility indicators.
 
-## 4. Spatial Analytics
-
-The project applies several spatial data science techniques including:
-
-- exploratory data analysis;
-- descriptive statistics;
-- spatial indicators;
-- correlation analysis;
-- accessibility metrics;
-- territorial characterisation.
+This network-based approach provides a more realistic representation of pedestrian movement through the urban environment.
 
 ---
 
-## 5. Machine Learning
+## 4. Building-Level Accessibility
 
-Urban patterns are identified through unsupervised learning algorithms.
+Accessibility is evaluated at the individual-building level.
 
-Implemented approaches include:
+The analysis considers:
 
-- K-Means
-- Agglomerative Clustering
-- Gaussian Mixture Models
+- average pedestrian distance to services;
+- number of accessible services;
+- diversity of service categories;
+- distribution of residents aged 65 years and over;
+- spatial differences between central and peripheral urban areas.
 
-Cluster quality is evaluated using:
+Working at the building level helps reveal local inequalities that may be concealed when data are aggregated into larger administrative units.
 
-- Silhouette Score
-- Davies-Bouldin Index
-- Calinski-Harabasz Index
-- AIC
-- BIC
+---
+
+## 5. Spatial Data Science and Clustering
+
+The project applies exploratory analysis and unsupervised machine-learning algorithms to identify latent patterns in urban accessibility.
+
+Implemented algorithms include:
+
+- K-Means;
+- Agglomerative Clustering;
+- Gaussian Mixture Models.
+
+Cluster quality is assessed using:
+
+- Silhouette Score;
+- Calinski–Harabasz Index;
+- Davies–Bouldin Index;
+- Akaike Information Criterion;
+- Bayesian Information Criterion.
+
+The comparison between algorithms supports the selection of spatially coherent and analytically interpretable urban clusters.
 
 ---
 
 ## 6. Explainable Artificial Intelligence
 
-To improve transparency and interpretation, the project incorporates Explainable AI techniques.
+Explainable Artificial Intelligence is used to identify the variables that most strongly influence cluster membership and accessibility patterns.
 
 Implemented methods include:
 
-- SHAP
-- LIME
-- Decision Trees
-- Random Forests
+- SHAP;
+- LIME;
+- Decision Trees;
+- Random Forests.
 
-These approaches allow complex spatial models to be interpreted by researchers, planners and decision-makers.
+These techniques provide complementary forms of interpretation:
+
+- **Decision Trees** represent model behaviour through transparent decision rules.
+- **Random Forests** estimate the overall importance of the analytical variables.
+- **SHAP** explains global and individual model outputs.
+- **LIME** provides local explanations for selected buildings or observations.
+
+The interpretability layer helps translate complex analytical outputs into information that can be understood by researchers, planners and territorial decision-makers.
 
 ---
 
 ## 7. Interactive Visualisation
 
-Results are explored through interactive dashboards developed in Python.
+The results are explored through interactive visual components developed in Python.
 
-Visual components include:
+These include:
 
-- interactive maps;
-- accessibility indicators;
-- clustering visualisation;
-- feature importance;
+- accessibility maps;
+- service-distribution maps;
+- building-level population maps;
+- cluster maps;
 - statistical summaries;
-- model interpretation.
+- correlation matrices;
+- feature-importance charts;
+- SHAP visualisations;
+- local model explanations.
+
+Interactive visualisation supports the exploration of spatial patterns and strengthens communication between technical analysis and territorial interpretation.
 
 ---
 
-# Technologies
+## Technologies
 
-The project was developed entirely using open-source software.
+The analytical workflow was developed using open-source software.
 
-## Programming
+### Programming and data processing
 
 - Python
+- Pandas
+- NumPy
 
-## Spatial Libraries
+### Geographic data processing
 
 - GeoPandas
 - Shapely
-- OSMnx
-- NetworkX
 - PyProj
 
-## Machine Learning
+### Network analysis
+
+- OSMnx
+- NetworkX
+
+### Machine learning and Explainable AI
 
 - Scikit-learn
 - SHAP
 - LIME
 
-## Visualisation
+### Visualisation
 
 - Plotly
 - Dash
 - Matplotlib
 
-## Data Processing
+---
 
-- Pandas
-- NumPy
+## Case Study: Porto
+
+The project was initially applied to the municipality of Porto, Portugal.
+
+Porto provides a relevant case study because of its:
+
+- dense and heterogeneous urban structure;
+- differences between central and peripheral areas;
+- uneven distribution of essential services;
+- ageing population;
+- availability of open geographic and statistical data.
+
+The analysis revealed a marked spatial contrast between areas with high service accessibility and peripheral areas where lower accessibility coincides with greater concentrations of older residents.
 
 ---
 
-# Scientific Contributions
+## Scientific Contributions
 
-The project demonstrates how Spatial Data Science can strengthen geographic analysis through:
+The project demonstrates how Spatial Data Science can strengthen urban geographic analysis through:
 
 - reproducible analytical workflows;
 - building-level accessibility assessment;
+- pedestrian network modelling;
+- unsupervised spatial segmentation;
 - explainable machine learning;
 - transparent territorial indicators;
 - interactive visual analytics;
 - evidence-based urban planning.
 
+It also provides a technical framework that can be adapted to other cities and spatial contexts.
+
 ---
 
-# Open Science
+## Open Science
 
-The project follows Open Science principles by making methodologies, documentation and source code publicly available whenever possible.
+**Decoding the City** follows Open Science principles by promoting:
 
-Its objectives include promoting:
-
-- transparency;
-- reproducibility;
+- transparent analytical methods;
+- reproducible computational workflows;
+- public source code;
 - methodological reuse;
-- collaborative research;
-- open geographic information.
+- accessible documentation;
+- open geographic information;
+- collaborative research.
+
+The public repository contains the analytical code and supporting project materials.
 
 ---
 
-# Publications
+## Related Publication
 
-The project has supported peer-reviewed scientific publications on Spatial Data Science, Geographic Information Science and Explainable Artificial Intelligence applied to urban accessibility.
+The project supports the following scientific publication:
 
-Current publication:
+> **Machado, R.** *Decoding the City: Data Science and AI for Understanding Urban Accessibility.* Communications in Computer and Information Science, Springer.
 
-> **Machado, R. (2025).** *Decoding the City: Data Science and AI for Understanding Urban Accessibility.* Communications in Computer and Information Science (CCIS), Springer. :contentReference[oaicite:0]{index=0}
-
----
-
-# Future Development
-
-Future developments include:
-
-- multi-city analysis;
-- additional accessibility indicators;
-- spatial autocorrelation;
-- network optimisation;
-- interactive web applications;
-- decision-support systems;
-- integration with the GEOInsightLab platform.
+The publication presents the Porto case study, including the accessibility indicators, clustering algorithms, model-evaluation procedures and Explainable AI techniques that form the scientific basis of the project. :contentReference[oaicite:0]{index=0}
 
 ---
 
-# Source Code
+## Future Development
 
-GitHub Repository
+Planned developments include:
 
-**https://github.com/RobertoOlivetree/decoding-the-city**
+- additional urban accessibility indicators;
+- sensitivity analysis across walking thresholds;
+- spatial autocorrelation analysis;
+- local spatial cluster identification;
+- comparison between buildings and aggregated spatial units;
+- multi-city comparative analysis;
+- expanded interactive web applications;
+- decision-support tools;
+- integration with GEOInsightLab.
+
+---
+
+## Source Code
+
+The source code and analytical materials are available in the public GitHub repository:
+
+[View Decoding the City on GitHub](https://github.com/RobertoOlivetree/decoding-the-city)
