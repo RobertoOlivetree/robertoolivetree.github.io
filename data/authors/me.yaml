@@ -28,7 +28,7 @@ bio: |
 
 affiliations:
   - name: CICS.NOVA — Interdisciplinary Centre of Social Sciences
-    url: https://www.cics.nova.fcsh.unl.pt/
+    url: https://www.cics.nova.fcsh.unl.pt/investigador/roberto-machado-3/
 
   - name: NOVA University Lisbon — School of Social Sciences and Humanities
     url: https://www.fcsh.unl.pt/
@@ -54,8 +54,8 @@ interests:
 education:
   - degree: PhD in Geography and Territorial Planning
     institution: NOVA University Lisbon — School of Social Sciences and Humanities
-    start: 2021-01-01
-    end: 2025-10-25
+    start: 2021-08-01
+    end: 2026-01-15
     summary: |
       Specialisation in Remote Sensing and Geographic Information Systems.
 
