@@ -69,59 +69,53 @@ education:
       text: Explore GEOInsightLab
       url: https://github.com/RobertoOlivetree/GEOInsightLab
       icon: brands/github
-
 experience:
   - role: Spatial Data Scientist
     org: Independent Consultant
     start: 2018-01-01
     summary: |
-      Freelance consulting integrating machine learning, spatial analytics,
-      geographic information systems, and reproducible Python workflows to
-      support territorial, urban, and environmental decision-making.
+      Spatial data science, GIS, machine learning, explainable AI,
+      reproducible workflows and territorial analytics.
 
   - role: Researcher
     org: CICS.NOVA — Interdisciplinary Centre of Social Sciences
     start: 2019-01-01
     summary: |
       Research in Geographic Information Science, spatial data science,
-      spatial literacy, urban accessibility, spatial statistics, and
-      explainable artificial intelligence.
+      urban analytics, spatial statistics and explainable artificial
+      intelligence.
 
-  - role: Research Grant Holder
-    org: Fundação para a Ciência e a Tecnologia
+  - role: Research Grant Holder (PhD Scholarship)
+    org: Fundação para a Ciência e a Tecnologia (FCT)
     start: 2021-01-01
     end: 2025-10-25
     summary: |
-      Doctoral research on the integration of data science and spatial
-      literacy, focusing on spatial analysis, geographic interpretation,
-      interactive visualisation, machine learning, and evidence-based
-      territorial decision-making.
+      Doctoral research developing the GEOInsightLab platform and
+      methodologies integrating GIScience, data science and explainable AI.
 
   - role: Visiting Research Scientist
     org: Queensland University of Technology
     start: 2022-01-01
     end: 2023-12-31
     summary: |
-      Research at the School of Computer Science focusing on human-computer
-      interaction, big data analysis, and interactive visualisation, under
-      the supervision of Professors Jinglan Zhang and Selen Türkay.
+      Research in human-computer interaction, spatial analytics,
+      explainable artificial intelligence and interactive visualisation.
 
-  - role: Strategic Adviser
-    org: National Parliament of Timor-Leste
-    start: 2021-01-01
-    end: 2022-12-31
+  - role: Visiting Researcher
+    org: The University of Queensland
+    start: 2022-01-01
+    end: 2023-12-31
     summary: |
-      Strategic and territorial analysis supporting institutional planning,
-      public policy, geographic information management, and evidence-based
-      decision-making.
+      Collaborative research in geographic information science,
+      spatial analysis and remote sensing.
 
   - role: GIS Specialist
     org: Municipality of Valpaços
     start: 2006-01-01
     end: 2007-12-31
     summary: |
-      Development and management of geographic information, spatial databases,
-      cartography, and territorial analysis for municipal planning.
+      Development of municipal GIS, cartography, spatial databases
+      and territorial planning.
 
 skills:
   - name: Spatial Data Science
