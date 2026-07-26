@@ -18,8 +18,6 @@ featured: true
 image:
   filename: featured.png
   preview_only: true
-
-url_code: https://github.com/RobertoOlivetree/decoding-the-city
 ---
 
 ## Spatial Data Science for Urban Accessibility
@@ -115,7 +113,7 @@ The workflow includes:
 - service-to-network connection;
 - shortest-path calculation;
 - walking-distance measurement;
-- service accessibility indicators.
+- service-accessibility indicators.
 
 This network-based approach provides a more realistic representation of pedestrian movement through the urban environment.
 
@@ -291,7 +289,7 @@ The project supports the following scientific publication:
 
 > **Machado, R.** *Decoding the City: Data Science and AI for Understanding Urban Accessibility.* Communications in Computer and Information Science, Springer.
 
-The publication presents the Porto case study, including the accessibility indicators, clustering algorithms, model-evaluation procedures and Explainable AI techniques that form the scientific basis of the project. :contentReference[oaicite:0]{index=0}
+The publication presents the Porto case study, including the accessibility indicators, clustering algorithms, model-evaluation procedures and Explainable AI techniques that form the scientific basis of the project.
 
 ---
 
