@@ -13,7 +13,7 @@ postnominals:
 status:
   icon: "🌍"
 
-role: Geographer and Spatial Data Scientist
+role: Spatial Data Scientist and GIScientist
 
 bio: |
   Geographer and researcher working at the intersection of Geographic
@@ -27,6 +27,9 @@ bio: |
   interactive research tools, and explainable machine-learning applications.
 
 affiliations:
+  - name: CICS.NOVA — Interdisciplinary Centre of Social Sciences
+    url: https://www.cics.nova.fcsh.unl.pt/
+
   - name: NOVA University Lisbon — School of Social Sciences and Humanities
     url: https://www.fcsh.unl.pt/
 
@@ -68,13 +71,40 @@ education:
       icon: brands/github
 
 experience:
-  - role: Visiting Researcher
-    org: The University of Queensland
-    start: 2023-01-01
-    end: 2024-12-31
+  - role: Spatial Data Scientist
+    org: Independent Consultant
+    start: 2018-01-01
     summary: |
-      Research activities in geography, spatial data analysis, remote sensing,
-      and computational approaches to geographic information.
+      Freelance consulting integrating machine learning, spatial analytics,
+      geographic information systems, and reproducible Python workflows to
+      support territorial, urban, and environmental decision-making.
+
+  - role: Researcher
+    org: CICS.NOVA — Interdisciplinary Centre of Social Sciences
+    start: 2019-01-01
+    summary: |
+      Research in Geographic Information Science, spatial data science,
+      spatial literacy, urban accessibility, spatial statistics, and
+      explainable artificial intelligence.
+
+  - role: Research Grant Holder
+    org: Fundação para a Ciência e a Tecnologia
+    start: 2021-01-01
+    end: 2025-10-25
+    summary: |
+      Doctoral research on the integration of data science and spatial
+      literacy, focusing on spatial analysis, geographic interpretation,
+      interactive visualisation, machine learning, and evidence-based
+      territorial decision-making.
+
+  - role: Visiting Research Scientist
+    org: Queensland University of Technology
+    start: 2022-01-01
+    end: 2023-12-31
+    summary: |
+      Research at the School of Computer Science focusing on human-computer
+      interaction, big data analysis, and interactive visualisation, under
+      the supervision of Professors Jinglan Zhang and Selen Türkay.
 
   - role: Strategic Adviser
     org: National Parliament of Timor-Leste
@@ -82,22 +112,16 @@ experience:
     end: 2022-12-31
     summary: |
       Strategic and territorial analysis supporting institutional planning,
-      public policy, and evidence-based decision-making.
+      public policy, geographic information management, and evidence-based
+      decision-making.
 
-  - role: Geographic Information and Territorial Planning Consultant
-    org: Hexis
-    start: 2017-01-01
-    end: 2019-12-31
+  - role: GIS Specialist
+    org: Municipality of Valpaços
+    start: 2006-01-01
+    end: 2007-12-31
     summary: |
-      Development of geographic information, spatial analysis, and
-      territorial planning work for applied projects.
-
-  - role: Geography Teacher
-    org: Portuguese Secondary Education
-    start: 2016-01-01
-    summary: |
-      Teaching Geography and developing learning activities involving
-      geographic information, spatial reasoning, and digital technologies.
+      Development and management of geographic information, spatial databases,
+      cartography, and territorial analysis for municipal planning.
 
 skills:
   - name: Spatial Data Science
