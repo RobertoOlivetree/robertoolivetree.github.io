@@ -3,7 +3,7 @@ title: "Decoding the City"
 summary: "Spatial Data Science and Explainable AI for Urban Accessibility"
 date: 2026-07-26
 
-weight: 1
+weight: 2
 
 type: project
 
