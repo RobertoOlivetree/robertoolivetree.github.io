@@ -1,7 +1,7 @@
 ---
 # Leave the homepage title empty to use the site title
 title: ''
-summary: 'Research portfolio of Roberto Machado'
+summary: 'Research portfolio of Roberto Oliveira Machado'
 date: 2026-07-16
 type: landing
 
@@ -10,6 +10,7 @@ sections:
   # Hero
   - block: dev-hero
     id: hero
+
     content:
       username: me
       greeting: "Hello, I’m"
@@ -18,13 +19,12 @@ sections:
 
       typewriter:
         enable: true
-        prefix: "I work on"
+        prefix: "I develop computational methods for"
         strings:
-          - "spatial data science"
-          - "geographic information science"
-          - "urban and territorial analysis"
-          - "explainable artificial intelligence"
-          - "spatial literacy"
+          - "building-level urban analytics"
+          - "urban population modelling"
+          - "network-based accessibility"
+          - "reproducible spatial decision support"
         type_speed: 70
         delete_speed: 40
         pause_time: 2500
@@ -58,7 +58,10 @@ sections:
 
     content:
       title: "Research Projects"
-      subtitle: "Selected projects in spatial data science, GIS and explainable AI"
+
+      subtitle: >-
+        Selected projects in building-level urban analytics,
+        spatial data science and reproducible decision support
 
       count: 0
 
@@ -70,14 +73,14 @@ sections:
         - name: All
           tag: "*"
 
-        - name: Spatial Data Science
-          tag: Spatial Data Science
+        - name: Building-Level Analytics
+          tag: Building-Level Analytics
 
-        - name: Urban Analysis
-          tag: Urban Analysis
+        - name: Urban Accessibility
+          tag: Urban Accessibility
 
-        - name: Explainable AI
-          tag: Explainable AI
+        - name: Spatial Decision Support
+          tag: Spatial Decision Support
 
         - name: Open Science
           tag: Open Science
@@ -102,11 +105,14 @@ sections:
 
     content:
       title: "Research Tools and Methods"
-      subtitle: "Technologies and analytical approaches used in my research"
+
+      subtitle: >-
+        Computational methods used to integrate, analyse and interpret
+        urban information at the building level
 
       categories:
 
-        - name: Programming
+        - name: Programming and Data
           items:
             - name: Python
               icon: devicon/python
@@ -151,7 +157,7 @@ sections:
               icon: devicon/python
 
 
-        - name: Research Tools
+        - name: Reproducible Research
           items:
             - name: GitHub
               icon: brands/github
@@ -259,11 +265,14 @@ sections:
       title: "Open and Reproducible Research"
 
       text: |-
-        My research combines open-source software, reproducible computational
-        workflows, interactive applications and transparent analytical methods.
+        My research develops reproducible computational workflows for analysing
+        urban information at the building level.
 
-        Research code and notebooks are made available through GitHub whenever
-        data licences and publication conditions permit.
+        I integrate spatial, demographic, environmental and network data to
+        support transparent urban and territorial decision-making.
+
+        Research code and notebooks are shared through GitHub whenever data
+        licences and publication conditions permit.
 
       button:
         text: "View My GitHub"
@@ -295,9 +304,9 @@ sections:
       subtitle: "Research collaboration and professional enquiries"
 
       text: |-
-        I welcome enquiries concerning research collaboration, spatial data
-        science, geographic information systems, urban and territorial
-        analysis, explainable artificial intelligence and open science.
+        I welcome enquiries concerning research collaboration in building-level
+        urban analytics, spatial data science, network accessibility and
+        reproducible territorial decision support.
 
       email: roberto.machado@campus.fcsh.unl.pt
       autolink: true
