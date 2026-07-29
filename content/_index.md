@@ -1,324 +1,319 @@
 ---
-# Leave the homepage title empty to use the site title
 title: ''
-summary: 'Research portfolio of Roberto Oliveira Machado'
+
+summary: 'Research portfolio of Roberto Machado'
+
 date: 2026-07-16
+
 type: landing
 
 sections:
 
-  # Hero
-  - block: dev-hero
-    id: hero
+###############################################################################
+# HERO
+###############################################################################
 
-    content:
-      username: me
-      greeting: "Hello, I’m"
-      show_status: true
-      show_scroll_indicator: true
+- block: dev-hero
+  id: hero
 
-      typewriter:
-        enable: true
-        prefix: "I develop computational methods for"
-        strings:
-          - "building-level urban analytics"
-          - "urban population modelling"
-          - "network-based accessibility"
-          - "reproducible spatial decision support"
-        type_speed: 70
-        delete_speed: 40
-        pause_time: 2500
+  content:
+    username: me
 
-      cta_buttons:
-        - text: Explore My Projects
-          url: "#projects"
-          icon: arrow-down
+    greeting: "Hello, I'm"
 
-        - text: Contact
-          url: "#contact"
-          icon: envelope
+    show_status: true
+    show_scroll_indicator: true
 
-    design:
-      style: centered
-      avatar_shape: circle
-      animations: true
+    typewriter:
+      enable: true
 
-      background:
-        color:
-          light: "#fafafa"
-          dark: "#0a0a0f"
+      prefix: "I develop open methods for"
 
-      spacing:
-        padding: ["6rem", "0", "4rem", "0"]
+      strings:
+        - "building-level urban analytics"
+        - "building-level population representation"
+        - "spatial context modelling"
+        - "reproducible urban decision support"
 
+      type_speed: 70
+      delete_speed: 40
+      pause_time: 2500
 
-  # Projects
-  - block: portfolio
-    id: projects
+    cta_buttons:
 
-    content:
-      title: "Research Projects"
+      - text: Explore My Projects
+        url: "#projects"
+        icon: arrow-down
 
-      subtitle: >-
-        Selected projects in building-level urban analytics,
-        spatial data science and reproducible decision support
-
-      count: 0
-
-      filters:
-        folders:
-          - projects
-
-      buttons:
-        - name: All
-          tag: "*"
-
-        - name: Building-Level Analytics
-          tag: Building-Level Analytics
-
-        - name: Urban Accessibility
-          tag: Urban Accessibility
-
-        - name: Spatial Decision Support
-          tag: Spatial Decision Support
-
-        - name: Open Science
-          tag: Open Science
-
-      default_button_index: 0
-
-    design:
-      columns: 3
-
-      background:
-        color:
-          light: "#ffffff"
-          dark: "#0d0d12"
-
-      spacing:
-        padding: ["4rem", "0", "4rem", "0"]
-
-
-  # Skills
-  - block: tech-stack
-    id: skills
-
-    content:
-      title: "Research Tools and Methods"
-
-      subtitle: >-
-        Computational methods used to integrate, analyse and interpret
-        urban information at the building level
-
-      categories:
-
-        - name: Programming and Data
-          items:
-            - name: Python
-              icon: devicon/python
-
-            - name: Pandas
-              icon: devicon/python
-
-            - name: NumPy
-              icon: devicon/python
-
-            - name: PostGIS
-              icon: devicon/postgresql
-
-
-        - name: Spatial Analytics
-          items:
-            - name: GeoPandas
-              icon: devicon/python
-
-            - name: OSMnx
-              icon: devicon/python
-
-            - name: Network Analysis
-              icon: devicon/python
-
-            - name: Spatial Statistics
-              icon: devicon/python
-
-
-        - name: Machine Learning and XAI
-          items:
-            - name: Scikit-learn
-              icon: devicon/python
-
-            - name: XGBoost
-              icon: devicon/python
-
-            - name: SHAP
-              icon: devicon/python
-
-            - name: LIME
-              icon: devicon/python
-
-
-        - name: Reproducible Research
-          items:
-            - name: GitHub
-              icon: brands/github
-
-            - name: Streamlit
-              icon: devicon/python
-
-            - name: Plotly
-              icon: devicon/python
-
-            - name: Docker
-              icon: devicon/docker
-
-    design:
-      style: grid
-      show_levels: false
-
-      background:
-        color:
-          light: "#f5f5f5"
-          dark: "#08080c"
-
-      spacing:
-        padding: ["4rem", "0", "4rem", "0"]
-
-
-  # Selected Experience
-  - block: resume-experience
-    id: experience
-
-    content:
-      title: "Selected Experience"
-      date_format: Jan 2006
-
-      items:
-
-        - title: Geography Teacher
-          company: Portuguese School of Dili
-          company_url: ''
-          company_logo: ''
-          location: Dili, Timor-Leste
-          date_start: '2026-03-27'
-          date_end: ''
-          description: |2-
-            * Teaching Geography and digital technologies
-            * Development of activities involving spatial reasoning and geographic information
-            * Contribution to curriculum planning, assessment and departmental work
-
-
-        - title: Visiting Researcher
-          company: The University of Queensland
-          company_url: 'https://www.uq.edu.au/'
-          company_logo: ''
-          location: Brisbane, Australia
-          date_start: '2023-01-01'
-          date_end: '2024-12-31'
-          description: |2-
-            * Research in geography, spatial data analysis and remote sensing
-            * Development of computational approaches to geographic information
-            * International collaboration in spatial data science
-
-
-        - title: Strategic Adviser
-          company: National Parliament of Timor-Leste
-          company_url: ''
-          company_logo: ''
-          location: Dili, Timor-Leste
-          date_start: '2021-01-01'
-          date_end: '2022-12-31'
-          description: |2-
-            * Strategic and territorial analysis
-            * Support for institutional planning and public policy
-            * Preparation of evidence-based information for decision-making
-
-
-        - title: Geographic Information and Territorial Planning Consultant
-          company: Hexis
-          company_url: ''
-          company_logo: ''
-          location: Portugal
-          date_start: '2017-01-01'
-          date_end: '2019-12-31'
-          description: |2-
-            * Geographic information systems and spatial analysis
-            * Territorial planning and applied research
-            * Preparation, processing and interpretation of spatial data
-
-    design:
-      columns: '1'
-
-      background:
-        color:
-          light: "#ffffff"
-          dark: "#0d0d12"
-
-      spacing:
-        padding: ["4rem", "0", "4rem", "0"]
-
-
-  # Open Science
-  - block: cta-card
-    id: open-science
-
-    content:
-      title: "Open and Reproducible Research"
-
-      text: |-
-        My research develops reproducible computational workflows for analysing
-        urban information at the building level.
-
-        I integrate spatial, demographic, environmental and network data to
-        support transparent urban and territorial decision-making.
-
-        Research code and notebooks are shared through GitHub whenever data
-        licences and publication conditions permit.
-
-      button:
-        text: "View My GitHub"
+      - text: GitHub
         url: "https://github.com/RobertoOlivetree"
         icon: brands/github
-        new_tab: true
 
-    design:
-      card:
-        css_class: "bg-gradient-to-br from-primary-200 via-primary-100 to-secondary-200 dark:from-primary-600 dark:via-primary-700 dark:to-secondary-700"
-        text_color: dark
+  design:
 
-      background:
-        color:
-          light: "#f5f5f5"
-          dark: "#08080c"
+    style: centered
+    avatar_shape: circle
+    animations: true
 
-      spacing:
-        padding: ["4rem", "0", "4rem", "0"]
+    background:
+      color:
+        light: "#fafafa"
+        dark: "#0a0a0f"
 
+    spacing:
+      padding: ["6rem","0","4rem","0"]
 
-  # Contact
-  - block: contact-info
-    id: contact
+###############################################################################
+# PROJECTS
+###############################################################################
 
-    content:
-      title: "Contact"
+- block: portfolio
+  id: projects
 
-      subtitle: "Research collaboration and professional enquiries"
+  content:
 
-      text: |-
-        I welcome enquiries concerning research collaboration in building-level
-        urban analytics, spatial data science, network accessibility and
-        reproducible territorial decision support.
+    title: "Research Projects"
 
-      email: roberto.machado@campus.fcsh.unl.pt
-      autolink: true
+    subtitle: >
+      Open and reproducible methods for building-level urban analytics
 
-    design:
-      columns: '1'
+    count: 0
 
-      background:
-        color:
-          light: "#ffffff"
-          dark: "#0d0d12"
+    filters:
 
-      spacing:
-        padding: ["4rem", "0", "6rem", "0"]
----
+      folders:
+        - projects
+
+    buttons:
+
+      - name: All
+        tag: "*"
+
+      - name: Building-Level Analytics
+        tag: Building-Level Analytics
+
+      - name: Population Representation
+        tag: Population Representation
+
+      - name: Spatial Context
+        tag: Spatial Context
+
+      - name: Accessibility
+        tag: Accessibility
+
+      - name: Open Research Software
+        tag: Open Research Software
+
+    default_button_index: 0
+
+  design:
+
+    columns: 3
+
+    background:
+      color:
+        light: "#ffffff"
+        dark: "#0d0d12"
+
+###############################################################################
+# SKILLS
+###############################################################################
+
+- block: tech-stack
+  id: skills
+
+  content:
+
+    title: "Research Tools and Methods"
+
+    subtitle: >
+      Methods and tools for reproducible building-level urban analysis
+
+    categories:
+
+      - name: Spatial Data Engineering
+
+        items:
+
+          - name: Python
+            icon: devicon/python
+
+          - name: Pandas
+            icon: devicon/python
+
+          - name: NumPy
+            icon: devicon/python
+
+          - name: PostGIS
+            icon: devicon/postgresql
+
+      - name: Building and Network Analytics
+
+        items:
+
+          - name: GeoPandas
+            icon: devicon/python
+
+          - name: OSMnx
+            icon: devicon/python
+
+          - name: Network Analysis
+            icon: devicon/python
+
+          - name: Spatial Statistics
+            icon: devicon/python
+
+      - name: Spatial Modelling
+
+        items:
+
+          - name: Scikit-learn
+            icon: devicon/python
+
+          - name: XGBoost
+            icon: devicon/python
+
+          - name: SHAP
+            icon: devicon/python
+
+          - name: LIME
+            icon: devicon/python
+
+      - name: Reproducible Research
+
+        items:
+
+          - name: GitHub
+            icon: brands/github
+
+          - name: Streamlit
+            icon: devicon/python
+
+          - name: Docker
+            icon: devicon/docker
+
+          - name: Plotly
+            icon: devicon/python
+
+###############################################################################
+# EXPERIENCE
+###############################################################################
+
+- block: resume-experience
+  id: experience
+
+  content:
+
+    title: "Selected Experience"
+
+    date_format: Jan 2006
+
+    items:
+
+      - title: Geography Teacher
+
+        company: Portuguese School of Dili
+
+        location: Dili, Timor-Leste
+
+        date_start: '2026-03-27'
+
+        description: |2-
+
+          * Teaching Geography and Digital Technologies
+
+          * Spatial reasoning and geographic information
+
+          * Curriculum development and assessment
+
+      - title: Visiting Researcher
+
+        company: The University of Queensland
+
+        location: Brisbane, Australia
+
+        date_start: '2023-01-01'
+
+        date_end: '2024-12-31'
+
+        description: |2-
+
+          * Research in GIScience and spatial data science
+
+          * Building computational workflows for urban analysis
+
+          * International collaboration in spatial analytics
+
+      - title: Strategic Adviser
+
+        company: National Parliament of Timor-Leste
+
+        location: Dili, Timor-Leste
+
+        date_start: '2021-01-01'
+
+        date_end: '2022-12-31'
+
+        description: |2-
+
+          * Territorial analysis
+
+          * Evidence-based public policy
+
+          * Strategic spatial planning
+
+###############################################################################
+# OPEN SCIENCE
+###############################################################################
+
+- block: cta-card
+  id: open-science
+
+  content:
+
+    title: "Open and Reproducible Research"
+
+    text: |-
+
+      My research develops open and reproducible computational methods
+      for building-level urban analytics.
+
+      Current work focuses on building-level population representation,
+      spatial context modelling, network accessibility, data quality and
+      uncertainty for urban and territorial decision-making.
+
+      Research software, documentation and example workflows are shared
+      through GitHub whenever licensing conditions permit.
+
+    button:
+
+      text: "View GitHub"
+
+      url: "https://github.com/RobertoOlivetree"
+
+      icon: brands/github
+
+      new_tab: true
+
+###############################################################################
+# CONTACT
+###############################################################################
+
+- block: contact-info
+  id: contact
+
+  content:
+
+    title: "Contact"
+
+    subtitle: "Research collaboration"
+
+    text: |-
+
+      I welcome collaboration in building-level urban analytics,
+      population representation, spatial context modelling,
+      network accessibility and reproducible research software.
+
+    email: roberto.machado@campus.fcsh.unl.pt
+
+    autolink: true
